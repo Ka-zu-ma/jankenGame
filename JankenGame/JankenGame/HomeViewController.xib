@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="againButton" destination="rXn-1g-8OT" id="Y9h-ti-JPa"/>
+                <outlet property="aiteLabel" destination="ATA-a9-9hr" id="tKp-KI-jSN"/>
+                <outlet property="chokiButton" destination="95C-A7-Bav" id="6Qe-js-8Qa"/>
+                <outlet property="guButton" destination="biR-cv-eLf" id="FLI-FE-bYa"/>
+                <outlet property="kekkaLabel" destination="O5M-AL-YJK" id="EDv-98-h0f"/>
+                <outlet property="messageLabel" destination="gyZ-vj-oFC" id="kCs-Zc-F4x"/>
+                <outlet property="paButton" destination="B0W-Ea-3Fl" id="LzX-b1-r2I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="じゃんけん...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyZ-vj-oFC">
+                    <rect key="frame" x="248" y="88" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相手" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATA-a9-9hr">
+                    <rect key="frame" x="283" y="189" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="結果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5M-AL-YJK">
+                    <rect key="frame" x="283" y="290" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biR-cv-eLf">
+                    <rect key="frame" x="208" y="391" width="30" height="30"/>
+                    <state key="normal" title="グー"/>
+                    <connections>
+                        <action selector="tappedGuButton:" destination="-1" eventType="touchUpInside" id="D8i-93-WTL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95C-A7-Bav">
+                    <rect key="frame" x="278" y="391" width="45" height="30"/>
+                    <state key="normal" title="チョキ"/>
+                    <connections>
+                        <action selector="tappedChokiButton:" destination="-1" eventType="touchUpInside" id="Fl6-ZG-4zt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXn-1g-8OT">
+                    <rect key="frame" x="270" y="501" width="60" height="30"/>
+                    <state key="normal" title="もう一回"/>
+                    <connections>
+                        <action selector="tappedAgainButton:" destination="-1" eventType="touchUpInside" id="6hd-Sh-a4d"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0W-Ea-3Fl">
+                    <rect key="frame" x="363" y="391" width="30" height="30"/>
+                    <state key="normal" title="パー"/>
+                    <connections>
+                        <action selector="tappedPaButton:" destination="-1" eventType="touchUpInside" id="U88-Wu-mLg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="O5M-AL-YJK" firstAttribute="top" secondItem="ATA-a9-9hr" secondAttribute="bottom" constant="80" id="22S-fp-lfm"/>
+                <constraint firstItem="O5M-AL-YJK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="2zE-H4-NH0"/>
+                <constraint firstItem="ATA-a9-9hr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7fy-VR-338"/>
+                <constraint firstItem="O5M-AL-YJK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BIW-Kr-c69"/>
+                <constraint firstItem="95C-A7-Bav" firstAttribute="centerY" secondItem="biR-cv-eLf" secondAttribute="centerY" id="Dnc-EC-a4t"/>
+                <constraint firstItem="gyZ-vj-oFC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HVi-oH-7fv"/>
+                <constraint firstItem="B0W-Ea-3Fl" firstAttribute="leading" secondItem="95C-A7-Bav" secondAttribute="trailing" constant="40" id="JRs-jo-7fx"/>
+                <constraint firstItem="95C-A7-Bav" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="P5J-Ca-Axo"/>
+                <constraint firstItem="rXn-1g-8OT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SC4-VV-pBe"/>
+                <constraint firstItem="ATA-a9-9hr" firstAttribute="top" secondItem="gyZ-vj-oFC" secondAttribute="bottom" constant="80" id="Sef-rb-9cg"/>
+                <constraint firstItem="rXn-1g-8OT" firstAttribute="top" secondItem="95C-A7-Bav" secondAttribute="bottom" constant="80" id="VPF-Fq-85t"/>
+                <constraint firstItem="B0W-Ea-3Fl" firstAttribute="centerY" secondItem="biR-cv-eLf" secondAttribute="centerY" id="qHe-CL-5U7"/>
+                <constraint firstItem="95C-A7-Bav" firstAttribute="leading" secondItem="biR-cv-eLf" secondAttribute="trailing" constant="40" id="qsE-bt-ebh"/>
+                <constraint firstItem="95C-A7-Bav" firstAttribute="top" secondItem="O5M-AL-YJK" secondAttribute="bottom" constant="80" id="xwy-kZ-oSK"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

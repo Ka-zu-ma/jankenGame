@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AAC617A1D19A5520062D484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC61791D19A5520062D484 /* main.m */; };
+		9AAC617D1D19A5520062D484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC617C1D19A5520062D484 /* AppDelegate.m */; };
+		9AAC61851D19A5520062D484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC61841D19A5520062D484 /* Assets.xcassets */; };
+		9AAC61881D19A5520062D484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC61861D19A5520062D484 /* LaunchScreen.storyboard */; };
+		9AAC61931D19A5520062D484 /* JankenGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC61921D19A5520062D484 /* JankenGameTests.m */; };
+		9AAC619E1D19A5520062D484 /* JankenGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC619D1D19A5520062D484 /* JankenGameUITests.m */; };
+		9AAC61AE1D19A58D0062D484 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC61AC1D19A58D0062D484 /* HomeViewController.m */; };
+		9AAC61AF1D19A58D0062D484 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC61AD1D19A58D0062D484 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AAC618F1D19A5520062D484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AAC616D1D19A5510062D484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAC61741D19A5510062D484;
+			remoteInfo = JankenGame;
+		};
+		9AAC619A1D19A5520062D484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AAC616D1D19A5510062D484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAC61741D19A5510062D484;
+			remoteInfo = JankenGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AAC61751D19A5510062D484 /* JankenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAC61791D19A5520062D484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AAC617B1D19A5520062D484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AAC617C1D19A5520062D484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AAC61841D19A5520062D484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AAC61871D19A5520062D484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AAC61891D19A5520062D484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAC618E1D19A5520062D484 /* JankenGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JankenGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAC61921D19A5520062D484 /* JankenGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenGameTests.m; sourceTree = "<group>"; };
+		9AAC61941D19A5520062D484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAC61991D19A5520062D484 /* JankenGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JankenGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAC619D1D19A5520062D484 /* JankenGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenGameUITests.m; sourceTree = "<group>"; };
+		9AAC619F1D19A5520062D484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAC61AB1D19A58D0062D484 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9AAC61AC1D19A58D0062D484 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9AAC61AD1D19A58D0062D484 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAC61721D19A5510062D484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC618B1D19A5520062D484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC61961D19A5520062D484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AAC616C1D19A5510062D484 = {
+			isa = PBXGroup;
+			children = (
+				9AAC61771D19A5520062D484 /* JankenGame */,
+				9AAC61911D19A5520062D484 /* JankenGameTests */,
+				9AAC619C1D19A5520062D484 /* JankenGameUITests */,
+				9AAC61761D19A5510062D484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AAC61761D19A5510062D484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC61751D19A5510062D484 /* JankenGame.app */,
+				9AAC618E1D19A5520062D484 /* JankenGameTests.xctest */,
+				9AAC61991D19A5520062D484 /* JankenGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AAC61771D19A5520062D484 /* JankenGame */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC617B1D19A5520062D484 /* AppDelegate.h */,
+				9AAC617C1D19A5520062D484 /* AppDelegate.m */,
+				9AAC61AB1D19A58D0062D484 /* HomeViewController.h */,
+				9AAC61AC1D19A58D0062D484 /* HomeViewController.m */,
+				9AAC61AD1D19A58D0062D484 /* HomeViewController.xib */,
+				9AAC61841D19A5520062D484 /* Assets.xcassets */,
+				9AAC61861D19A5520062D484 /* LaunchScreen.storyboard */,
+				9AAC61891D19A5520062D484 /* Info.plist */,
+				9AAC61781D19A5520062D484 /* Supporting Files */,
+			);
+			path = JankenGame;
+			sourceTree = "<group>";
+		};
+		9AAC61781D19A5520062D484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC61791D19A5520062D484 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AAC61911D19A5520062D484 /* JankenGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC61921D19A5520062D484 /* JankenGameTests.m */,
+				9AAC61941D19A5520062D484 /* Info.plist */,
+			);
+			path = JankenGameTests;
+			sourceTree = "<group>";
+		};
+		9AAC619C1D19A5520062D484 /* JankenGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC619D1D19A5520062D484 /* JankenGameUITests.m */,
+				9AAC619F1D19A5520062D484 /* Info.plist */,
+			);
+			path = JankenGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AAC61741D19A5510062D484 /* JankenGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAC61A21D19A5520062D484 /* Build configuration list for PBXNativeTarget "JankenGame" */;
+			buildPhases = (
+				9AAC61711D19A5510062D484 /* Sources */,
+				9AAC61721D19A5510062D484 /* Frameworks */,
+				9AAC61731D19A5510062D484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JankenGame;
+			productName = JankenGame;
+			productReference = 9AAC61751D19A5510062D484 /* JankenGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AAC618D1D19A5520062D484 /* JankenGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAC61A51D19A5520062D484 /* Build configuration list for PBXNativeTarget "JankenGameTests" */;
+			buildPhases = (
+				9AAC618A1D19A5520062D484 /* Sources */,
+				9AAC618B1D19A5520062D484 /* Frameworks */,
+				9AAC618C1D19A5520062D484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAC61901D19A5520062D484 /* PBXTargetDependency */,
+			);
+			name = JankenGameTests;
+			productName = JankenGameTests;
+			productReference = 9AAC618E1D19A5520062D484 /* JankenGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AAC61981D19A5520062D484 /* JankenGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAC61A81D19A5520062D484 /* Build configuration list for PBXNativeTarget "JankenGameUITests" */;
+			buildPhases = (
+				9AAC61951D19A5520062D484 /* Sources */,
+				9AAC61961D19A5520062D484 /* Frameworks */,
+				9AAC61971D19A5520062D484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAC619B1D19A5520062D484 /* PBXTargetDependency */,
+			);
+			name = JankenGameUITests;
+			productName = JankenGameUITests;
+			productReference = 9AAC61991D19A5520062D484 /* JankenGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AAC616D1D19A5510062D484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miyazaki Kazuma";
+				TargetAttributes = {
+					9AAC61741D19A5510062D484 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9AAC618D1D19A5520062D484 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9AAC61741D19A5510062D484;
+					};
+					9AAC61981D19A5520062D484 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9AAC61741D19A5510062D484;
+					};
+				};
+			};
+			buildConfigurationList = 9AAC61701D19A5510062D484 /* Build configuration list for PBXProject "JankenGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AAC616C1D19A5510062D484;
+			productRefGroup = 9AAC61761D19A5510062D484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AAC61741D19A5510062D484 /* JankenGame */,
+				9AAC618D1D19A5520062D484 /* JankenGameTests */,
+				9AAC61981D19A5520062D484 /* JankenGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAC61731D19A5510062D484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAC61881D19A5520062D484 /* LaunchScreen.storyboard in Resources */,
+				9AAC61851D19A5520062D484 /* Assets.xcassets in Resources */,
+				9AAC61AF1D19A58D0062D484 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC618C1D19A5520062D484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC61971D19A5520062D484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAC61711D19A5510062D484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAC617D1D19A5520062D484 /* AppDelegate.m in Sources */,
+				9AAC617A1D19A5520062D484 /* main.m in Sources */,
+				9AAC61AE1D19A58D0062D484 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC618A1D19A5520062D484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAC61931D19A5520062D484 /* JankenGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC61951D19A5520062D484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAC619E1D19A5520062D484 /* JankenGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AAC61901D19A5520062D484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AAC61741D19A5510062D484 /* JankenGame */;
+			targetProxy = 9AAC618F1D19A5520062D484 /* PBXContainerItemProxy */;
+		};
+		9AAC619B1D19A5520062D484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AAC61741D19A5510062D484 /* JankenGame */;
+			targetProxy = 9AAC619A1D19A5520062D484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AAC61861D19A5520062D484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AAC61871D19A5520062D484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AAC61A01D19A5520062D484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AAC61A11D19A5520062D484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AAC61A31D19A5520062D484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JankenGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Miyazaki-Kazuma.JankenGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AAC61A41D19A5520062D484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JankenGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Miyazaki-Kazuma.JankenGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AAC61A61D19A5520062D484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JankenGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Miyazaki-Kazuma.JankenGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JankenGame.app/JankenGame";
+			};
+			name = Debug;
+		};
+		9AAC61A71D19A5520062D484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JankenGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Miyazaki-Kazuma.JankenGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JankenGame.app/JankenGame";
+			};
+			name = Release;
+		};
+		9AAC61A91D19A5520062D484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JankenGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Miyazaki-Kazuma.JankenGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JankenGame;
+			};
+			name = Debug;
+		};
+		9AAC61AA1D19A5520062D484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JankenGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Miyazaki-Kazuma.JankenGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JankenGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AAC61701D19A5510062D484 /* Build configuration list for PBXProject "JankenGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAC61A01D19A5520062D484 /* Debug */,
+				9AAC61A11D19A5520062D484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAC61A21D19A5520062D484 /* Build configuration list for PBXNativeTarget "JankenGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAC61A31D19A5520062D484 /* Debug */,
+				9AAC61A41D19A5520062D484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AAC61A51D19A5520062D484 /* Build configuration list for PBXNativeTarget "JankenGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAC61A61D19A5520062D484 /* Debug */,
+				9AAC61A71D19A5520062D484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AAC61A81D19A5520062D484 /* Build configuration list for PBXNativeTarget "JankenGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAC61A91D19A5520062D484 /* Debug */,
+				9AAC61AA1D19A5520062D484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AAC616D1D19A5510062D484 /* Project object */;
+}
