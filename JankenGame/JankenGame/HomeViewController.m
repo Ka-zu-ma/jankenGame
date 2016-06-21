@@ -63,7 +63,7 @@
         _kekkaLabel.text = @"あなたの勝ち!";
         
         _guButton.enabled = NO;
-        _againButton.enabled = YES;
+        _againButton.hidden = NO;
         
     }
     if (jankenNumber == 2) {
@@ -126,24 +126,24 @@
     jankenNumber = rand()% 3;
     
     if (jankenNumber == 0) {
-        self.aiteLabel.text=@"グー";
-        self.kekkaLabel.text=@"あなたの勝ち！";
+        _aiteLabel.text=@"グー";
+        _kekkaLabel.text=@"あなたの勝ち！";
         _paButton.enabled = NO;
         _againButton.hidden = NO;
     }
     
     if (jankenNumber==1) {
         
-        self.aiteLabel.text=@"チョキ";
-        self.kekkaLabel.text=@"あなたの負け！";
+        _aiteLabel.text=@"チョキ";
+        _kekkaLabel.text=@"あなたの負け！";
         _paButton.enabled = NO;
         _againButton.hidden = NO;
     }
     
     if (jankenNumber == 2) {
         
-        self.aiteLabel.text=@"パー";
-        self.kekkaLabel.text=@"あいこで...";
+        _aiteLabel.text=@"パー";
+        _kekkaLabel.text=@"あいこで...";
         _guButton.hidden = NO;
         _chokiButton.hidden = NO;
         
